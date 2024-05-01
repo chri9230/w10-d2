@@ -51,10 +51,11 @@
 }
 
 .nav-right img:nth-of-type(3) {
-    height: 45px;
-    width: 60px;
+    height: 35px;
+    width: 50px;
+    padding: .2em;
     border: 1px solid #7550fe;
-    border-radius: 10px;
+    border-radius: 5px;
     
 }
 
@@ -84,6 +85,10 @@
     background-color: #7550fe;
     color: white;
    
+}
+
+#first-section #text p {
+    opacity: .5;
 }
 
 #text {
@@ -116,6 +121,11 @@
         padding-left: 4em;
         
     }
+
+    #second-section {
+        padding: 4em 5em;
+        
+    }
 }
 
 
@@ -131,6 +141,10 @@
  
  #text p{
          padding-right: 2em;
+    }
+
+    #second-section {
+        padding-left: 1em;
     }
  }
 
@@ -174,7 +188,7 @@
     display: flex;
     justify-content: flex-start;
     padding-top: 1.3em;
-    
+    padding-bottom: .3em
 }
 
 #cases div div {
@@ -199,5 +213,81 @@
     border-radius: 50%;
     background-color: #ffeeda;
     padding: .8em;
+}
+
+#second-section {
+    padding-top: 3em;
+    border-top: 2px solid #e9e8eb
+    ;
+    background-color: #f5f4f8
+    ;
+}
+
+#second-section h5 {
+    padding-bottom: .3em;
+}
+
+.course-property {
+    padding-left: 1em;
+}
+
+.time-difficulty {
+    display: flex;
+    align-items: center;
+    padding-bottom: 1em;
+}
+.time-difficulty p {
+    margin-bottom: 0;
+    font-size: 12px;
+    opacity: .5;
+    padding-right: .8em;
+}
+
+ .course-property img {
+    height: 16px;
+    padding-right: .6em;
+}
+
+.star {
+    display: flex;
+    align-items: center;
+    padding-bottom: 1em;
+}
+
+.star p {
+    color: #ffbd6e;
+    margin-bottom: 0;
+    padding-right: .4em;
+}
+.star span {
+    opacity: .5;
+}
+
+.money p {
+    font-weight: 600;
+}
+
+.list-group {
+    padding: 1em;
+    display: flex;
+    
+}
+
+.teacher {
+    display: flex;
+    align-items: center;
+}
+
+.teacher p {
+    margin-bottom: 0;
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.list-group img {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin: .6em;
 }
 
