@@ -1,11 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 * {
     box-sizing: border-box;
-    
+    font-family: "Outfit", sans-serif;
 }
-
-
-
-
 
 .nav-right {
     display: flex;
@@ -18,7 +16,7 @@
 }
 
 .icon {
-    height: 40px;
+    height: 30px;
 }
 
 .dropdown {
@@ -36,8 +34,8 @@
 }
 
 .nav-right img:nth-of-type(1) {
-    height: 50px;
-    width: 50px;
+    height: 35px;
+    width: 35px;
     border-radius: 50%;
     background-color: rgb(206, 206, 206);
     opacity: .3;
@@ -45,14 +43,14 @@
 }
 
 .nav-right img:nth-of-type(2) {
-    height: 60px;
-    width: 60px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
 }
 
 .nav-right img:nth-of-type(3) {
-    height: 35px;
-    width: 50px;
+    height: 30px;
+    width: 40px;
     padding: .2em;
     border: 1px solid #7550fe;
     border-radius: 5px;
@@ -123,9 +121,12 @@
     }
 
     #second-section {
-        padding: 4em 5em;
-        
+        padding: 4em 5em; 
     }
+    #second-section .container-fluid {
+        padding-bottom: 2em;
+    }
+
 }
 
 
@@ -145,6 +146,10 @@
 
     #second-section {
         padding-left: 1em;
+    }
+
+    #second-section .container-fluid {
+        padding-bottom: 2em;
     }
  }
 
@@ -254,6 +259,10 @@
     padding-bottom: 1em;
 }
 
+.star img {
+    height: 10px;
+}
+
 .star p {
     color: #ffbd6e;
     margin-bottom: 0;
@@ -261,11 +270,13 @@
 }
 .star span {
     opacity: .5;
+    font-size: 12px;
 }
 
 .money p {
     font-weight: 600;
 }
+
 
 .list-group {
     padding: 1em;
@@ -291,3 +302,21 @@
     margin: .6em;
 }
 
+.carousel-control-prev {
+    justify-content: left;    
+}
+.carousel-control-next {
+justify-content: right;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #e9e8eb;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    opacity: 1;
+    padding: .6em;
+    top: 48%;
+
+}
