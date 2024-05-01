@@ -84,23 +84,43 @@
     justify-content: center;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 420px) {
    
     .hero-img img {
         height: 200px;
         width: 260px;
     }
+    #text {
+        padding-left: 1em;
+    }
+    #text p {
+        padding-right: 2em;
+    }
 }
 
+@media screen and (max-width: 576px) {
+   
+    .hero-img img {
+        height: 350px;
+        width: 460px;
+    }
+    #text {
+        padding-left: 1em;
+    }
+    #text p {
+        padding-right: 2em;
+    }
+
+}
 
 @media screen and (max-width: 992px) {
    #text {
-    padding-left: 15%;
+    padding-left: 2em;
     padding-top: 2em;
 }
 
 #text p{
-        padding-right: 15em;
+        padding-right: 2em;
    }
 }
 
