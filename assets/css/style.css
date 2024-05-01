@@ -58,8 +58,28 @@
     
 }
 
+#first-section button {
+    padding: 1em;
+    font-size: 12px;
+    border-radius: 5px;
+    border: transparent;
+    cursor: pointer;
+}
+
+#first-section button:first-of-type {
+    background-color: #1acb98;
+    color: white;
+}
+#first-section button:last-of-type {
+    background-color: white;
+    color: black;
+}
+
 #first-section {
-   
+    padding: 0;
+}
+
+#first-section .row:first-of-type {
     margin: 0;
     background-color: #7550fe;
     color: white;
@@ -77,6 +97,9 @@
     
 }
 
+#cases {
+    padding-left: 5em;
+}
 
 
 .hero-img {
@@ -84,19 +107,32 @@
     justify-content: center;
 }
 
-@media screen and (max-width: 420px) {
-   
-    .hero-img img {
-        height: 200px;
-        width: 260px;
+@media screen and (min-width: 992px) {
+    
+    #cases {
+        padding-left: 5em;
     }
     #text {
-        padding-left: 1em;
-    }
-    #text p {
-        padding-right: 2em;
+        padding-left: 4em;
+        
     }
 }
+
+
+@media screen and (max-width: 992px) {
+    #text {
+     padding-left: 2em;
+     padding-top: 2em;
+ }
+ #cases {
+    padding-left: 2em;
+}
+
+ 
+ #text p{
+         padding-right: 2em;
+    }
+ }
 
 @media screen and (max-width: 576px) {
    
@@ -107,20 +143,61 @@
     #text {
         padding-left: 1em;
     }
+    #cases {
+        padding-left: 1em;
+    }
+
     #text p {
         padding-right: 2em;
     }
 
 }
 
-@media screen and (max-width: 992px) {
-   #text {
-    padding-left: 2em;
-    padding-top: 2em;
+@media screen and (max-width: 450px) {
+   
+    .hero-img img {
+        height: 340px;
+        width: 390px;
+    }
+    #text {
+        padding-left: 1em;
+    }
+    #cases {
+        padding-left: 1em;
+    }
+    #text p {
+        padding-right: 2em;
+    }
 }
 
-#text p{
-        padding-right: 2em;
-   }
+#cases > div {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 1.3em;
+    
+}
+
+#cases div div {
+    
+    padding-left: 1em;
+    padding-top: .3em;
+}
+
+#cases h6 {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+#cases p {
+    opacity: .6;
+    font-size: 10px;
+}
+
+#cases img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #ffeeda;
+    padding: .8em;
 }
 
