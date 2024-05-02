@@ -320,3 +320,9 @@ justify-content: right;
     top: 48%;
 
 }
+
+.name-teacher {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
