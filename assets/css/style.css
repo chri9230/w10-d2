@@ -46,6 +46,11 @@
     height: 40px;
     width: 40px;
     border-radius: 50%;
+    
+}
+
+.nav-right img:nth-of-type(2):hover {
+    
 }
 
 .nav-right img:nth-of-type(3) {
@@ -325,4 +330,13 @@ justify-content: right;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item:hover .dropdown-menu {
+    display: block;
 }
