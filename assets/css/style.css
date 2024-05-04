@@ -38,7 +38,7 @@
     width: 35px;
     border-radius: 50%;
     background-color: rgb(206, 206, 206);
-    opacity: .3;
+    opacity: .4;
     padding: .6em;
 }
 
@@ -50,9 +50,9 @@
 }
  */
 
- .nav-right .nav-item img {
-    height: 40px;
-    width: 40px;
+ .nav-right .user-img {
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
  }
 
@@ -343,11 +343,40 @@ justify-content: right;
 .nav-item:hover .dropdown-menu {
     display: block;
 }
+/* RIMETTI :HOVER SUL NAV-ITEM 
+SIA SOPRA CHE SOTTO
+ */
 
 .nav-right .nav-item:hover .dropdown-menu {
     right: 0;
     left: auto;
 }
 
+#user {
+    display: flex;
+    padding: 1em;
+    align-items: center;
+}
+
+#user img {
+    margin-left: .5em;
+}
+
+#user .data p {
+    margin-bottom: 0;
+    padding-left: .7em;
+    padding-right: .7em;
+}
+
+.icon-p {
+    display: flex;
+    align-items: center; 
+    padding-left: 1.5em;  
+}
+
+.icon-p p {
+    padding-left: .8em;
+    margin: 0;
+}
 
 
