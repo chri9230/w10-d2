@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+.sticky {
+    position: sticky;
+    top: 12px;
+    z-index: 1000000;
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.nav-right {
+    display: flex;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    padding-left: 1em;
+}
+
+.icon {
+    height: 30px;
+}
+
+.dropdown {
+    font-size: 18px;
+    padding-left: 1em;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-right img {
+    margin-right: .5em;
+}
+
+.nav-right > img:nth-of-type(1) {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: rgb(206, 206, 206);
+    opacity: .4;
+    padding: .6em;
+}
+
+
+ .nav-right .user-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+ }
+
+.nav-right img:nth-of-type(2) {
+    height: 30px;
+    width: 40px;
+    padding: .2em;
+    border: 1px solid #7550fe;
+    border-radius: 5px;
+    
+}
+
+
+
+#first-section button {
+    padding: 1em;
+    font-size: 12px;
+    border-radius: 5px;
+    border: transparent;
+    cursor: pointer;
+}
+
+#first-section button:first-of-type {
+    background-color: #1acb98;
+    color: white;
+}
+#first-section button:last-of-type {
+    background-color: white;
+    color: black;
+}
+
+#first-section {
+    padding: 0;
+}
+
+#first-section .row:first-of-type {
+    margin: 0;
+    background-color: #7550fe;
+    color: white;
+   
+}
+
+#first-section #text p {
+    opacity: .5;
+}
+
+#text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    
+    padding-left: 4em;
+    
+}
+
+#cases {
+    padding-left: 5em;
+}
+
+
+.hero-img {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 992px) {
+    
+    #cases {
+        padding-left: 5em;
+    }
+    #text {
+        padding-left: 4em;
+        
+    }
+
+    #second-section {
+        padding: 4em 5em; 
+    }
+    #second-section .container-fluid {
+        padding-bottom: 2em;
+    }
+
+}
+
+
+@media screen and (max-width: 992px) {
+    #text {
+     padding-left: 2em;
+     padding-top: 2em;
+ }
+ #cases {
+    padding-left: 2em;
+}
+
+ 
+ #text p{
+         padding-right: 2em;
+    }
+
+    #second-section {
+        padding-left: 1em;
+    }
+
+    #second-section .container-fluid {
+        padding-bottom: 2em;
+    }
+ }
+
+@media screen and (max-width: 576px) {
+   
+    .hero-img img {
+        height: 350px;
+        width: 460px;
+    }
+    #text {
+        padding-left: 1em;
+    }
+    #cases {
+        padding-left: 1em;
+    }
+
+    #text p {
+        padding-right: 2em;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+   
+    .hero-img img {
+        height: 340px;
+        width: 390px;
+    }
+    #text {
+        padding-left: 1em;
+    }
+    #cases {
+        padding-left: 1em;
+    }
+    #text p {
+        padding-right: 2em;
+    }
+}
+
+#cases > div {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 1.3em;
+    padding-bottom: .3em
+}
+
+#cases div div {
+    
+    padding-left: 1em;
+    padding-top: .3em;
+}
+
+#cases h6 {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+#cases p {
+    opacity: .6;
+    font-size: 10px;
+}
+
+#cases img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #ffeeda;
+    padding: .8em;
+}
+
+#second-section {
+    padding-top: 3em;
+    border-top: 2px solid #e9e8eb
+    ;
+    background-color: #f5f4f8
+    ;
+}
+
+#second-section h5 {
+    padding-bottom: .3em;
+}
+
+.course-property {
+    padding-left: 1em;
+}
+
+.time-difficulty {
+    display: flex;
+    align-items: center;
+    padding-bottom: 1em;
+}
+.time-difficulty p {
+    margin-bottom: 0;
+    font-size: 12px;
+    opacity: .5;
+    padding-right: .8em;
+}
+
+ .course-property img {
+    height: 16px;
+    padding-right: .6em;
+}
+
+.star {
+    display: flex;
+    align-items: center;
+    padding-bottom: 1em;
+}
+
+.star img {
+    height: 10px;
+}
+
+.star p {
+    color: #ffbd6e;
+    margin-bottom: 0;
+    padding-right: .4em;
+}
+.star span {
+    opacity: .5;
+    font-size: 12px;
+}
+
+.money p {
+    font-weight: 600;
+}
+
+
+.list-group {
+    padding: 1em;
+    display: flex;
+    
+}
+
+.teacher {
+    display: flex;
+    align-items: center;
+}
+
+.teacher p {
+    margin-bottom: 0;
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.list-group img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin: .6em;
+}
+
+.save-btn {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.save-btn img {
+    height: 35px;
+    width: 35px;
+    margin: 0;
+    padding-top: .6em;
+    width: 100%;
+    
+    /* WHY DOES NOT WORK ? */
+    transition: fill 1s;
+}
+
+.save-btn img:hover {
+    fill: black;
+}
+
+
+.carousel-control-prev {
+    justify-content: left;    
+}
+.carousel-control-next {
+justify-content: right;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #e9e8eb;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    opacity: 1;
+    padding: .6em;
+    top: 48%;
+
+}
+
+.name-teacher {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item:hover .dropdown-menu {
+    display: block;
+}
+
+
+.nav-right .nav-item:hover .dropdown-menu {
+    right: 0;
+    left: auto;
+}
+
+#user {
+    display: flex;
+    padding: 1em;
+    align-items: center;
+}
+
+#user img {
+    margin-left: .5em;
+}
+
+#user .data p {
+    margin-bottom: 0;
+    padding-left: .7em;
+    padding-right: .7em;
+}
+
+.icon-p {
+    display: flex;
+    align-items: center; 
+    padding-left: 1.5em;  
+}
+
+.icon-p p {
+    padding-left: .8em;
+    margin: 0;
+}
+
+.card {
+    margin-top: 1em;
+    z-index: 1;
+    transition: transform .5s, box-shadow 1s;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 7px 3px #000000;
+    transform: scale(1.02);
+}
+
+.dropdown-item {
+    transition: background-color .5s, color .5s;
+}
+
+.dropdown-item:hover {
+    background-color: #7550fe;
+    color: white;
+}
+
